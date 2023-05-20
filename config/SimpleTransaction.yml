@@ -1,0 +1,13 @@
+transactions:
+  - id: "phparamset"
+    path: ph/config
+    propsid: 
+    - test1 
+    services:
+    - configa
+  - id: "exparamset"
+    path: ex/config
+    propsid: 
+    - test2 
+    services:
+    - configb

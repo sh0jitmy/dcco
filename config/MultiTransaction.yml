@@ -1,0 +1,22 @@
+transactions:
+  - id: "fset"
+    path: ma/config
+    propsid: 
+    - fparam
+    services:
+    - phconfig
+    - exconfig    
+  - id: "alarmclear"
+    path: ma/config
+    propsid: 
+    - alarmclear 
+    services:
+    - phconfig
+    - exconfig
+  - id: "ibitcontrol"
+    path: ma/config
+    propsid: 
+    - ibitcontrol 
+    services:
+    - phconfig
+    - exconfig

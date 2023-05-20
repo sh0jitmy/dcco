@@ -1,0 +1,29 @@
+resources:
+
+  - path: /ma/ownstatus
+    cmd : update 
+    entry: 
+      type: status
+      ids:
+       - mac_owntatus
+
+  - path: /ma/phystatus
+    cmd : update 
+    entry: 
+      type: status
+      ids:
+       - mac_phystatus
+
+  - path: /ma/ecstatus
+    cmd : update 
+    entry: 
+      type: status
+      ids:
+
+  - path: /ma/config
+    cmd : update 
+    entry: 
+      type: config 
+      ids:
+       - macstatus
+       - ecstatus

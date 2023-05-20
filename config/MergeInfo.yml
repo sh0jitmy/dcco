@@ -1,0 +1,6 @@
+merges:
+  - path: /ma/config
+    resource : /ma/status
+    props: 
+    - frequency 
+    - emission 
